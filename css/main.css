@@ -9,16 +9,38 @@ body * {
 
 body {
 background-color: #707FDC ;
+
+}
+.background {
+    background-image: url(../img/kalnas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    filter: blur(20px);
 }
 .visas-turinys {
     display: inline-block;
     width: 800px;
-    margin: 100px calc(50% - 400px) 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 .kaire {
-background-color: blueviolet;
-display: inline-block;
-width: 350px;
+    background-color: blueviolet;
+    display: inline-block;
+    float: left;
+    padding: 40px;
+    width: 40%;
+    background-image: url(../img/kalnas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
 }
 .desine {
     width: calc(60% - 80px);
@@ -26,12 +48,26 @@ width: 350px;
     display: inline-block;
     background-color: azure;
     float: right;
+    position: relative;
 }
-.apatiniai-linkai > a {
-
+.apatiniai-linkai {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
+    color: aliceblue;
 }
 .close {
     color: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    line-height: 57px;
 }
 label {
     display:inline-block;

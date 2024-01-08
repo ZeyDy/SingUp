@@ -32,7 +32,7 @@ background-color: #707FDC ;
     background-color: blueviolet;
     display: inline-block;
     float: left;
-    padding: 40px;
+    padding: 20px;
     width: 40%;
     background-image: url(../img/kalnas.png);
     background-size: cover;
@@ -43,69 +43,35 @@ background-color: #707FDC ;
     bottom: 30px;
 }
 .desine {
-    width: calc(60% - 80px);
+    width: calc(60% - 0px);
     padding: 40px;
     display: inline-block;
-    background-color: azure;
+    background-color: #C0C0F4;
     float: right;
     position: relative;
 }
 .apatiniai-linkai {
     position: absolute;
     bottom: 20px;
-    left: 40px;
+    left: 50px;
     right: 40px;
     color: aliceblue;
 }
+.apatiniai-linkai > a {
+    color: aliceblue;
+}
+.apatiniai-linkai > span {
+    padding: 0px 5px;
+}
 .close {
-    color: green;
+    color: gray;
     position: absolute;
     top: 0;
     right: 0;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     display: inline-block;
     text-align: center;
     font-size: 30px;
-    line-height: 57px;
-}
-label {
-    display:inline-block;
-    width: 100%;
-}
-form {
-   
-}
-.form-row {
-    display:inline-block;
-    width: 100%;
-}
-.form-row + .form-row {
-    margin-top: 40px;
-}
-input {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid red;
-    font-size: 13px;
-    line-height: 15px;
-    padding: 3px;
-
-}
-button {
-    float: left;
-    background-color: #707FDC;
-    padding: 10px 30px;
-    color: aliceblue;
-    font-size: 18px;
-    line-height: 20px;
-    border-radius: 21px;
-    border: none;
-}
-span {
-    float: left;
-}
-a {
-    float: right;
-    text-decoration: none;
+    line-height: 30px;
 }
